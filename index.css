@@ -168,6 +168,11 @@ summary {
   grid-template-columns: 1fr 1.875rem;
   gap: 1.5rem;
   align-items: center;
+  cursor: pointer;
+}
+
+.faq-item summary:hover {
+  color: var(--primaria-500);
 }
 
 @media (min-width: 40rem) {
