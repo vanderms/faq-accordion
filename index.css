@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+:root {
+  font-weight: normal;
+  --primaria-500: #ad28eb;
+  --primaria-700: #8B6990;
+  --primaria-950: #301534;
+
+  --neutral-base: #fff;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li,
+summary {
+  list-style-type: none;
+}
